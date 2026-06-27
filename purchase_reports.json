@@ -341,7 +341,33 @@
             {
                 "parameter_type": "Trans Type",
                 "parameters": [
-                    ["Consumption/Capital Purchase", "Shows GSTR-2 submitted details transactions whose transaction type is consumption/capital purchase, displaying supplier GSTINs, invoice"]
+                    ["Consumption/Capital Purchase", "Shows GSTR-2 submitted details transactions whose transaction type is consumption/capital purchase, displaying supplier GSTINs, invoice details, and tax details."],
+                    ["Credit/Debit Note", "Shows GSTR-2 submitted details transactions whose transaction type is credit / debit note, displaying supplier GSTINs, invoice details, and tax details."],
+                    ["Purchase Invoice", "Shows GSTR-2 submitted details transactions whose transaction type is purchase invoice, displaying supplier GSTINs, invoice details, and tax details."],
+                    ["Purchase Return", "Shows GSTR-2 submitted details transactions whose transaction type is purchase return, displaying supplier GSTINs, invoice details, and tax details."],
+                    ["Service Payment Entry", "Shows GSTR-2 submitted details transactions whose transaction type is service payment entry, displaying supplier GSTINs, invoice details, and tax details."]
+                ]
+            },
+            {
+                "parameter_type": "Status",
+                "parameters": [
+                    ["Completed", "Filters the transaction list to show transactions exclusively with the status as Completed."],
+                    ["Invoice Not Generated", "Filters the transaction list to show transactions exclusively with the status as Invoice Not Generated."],
+                    ["Pending", "Filters the transaction list to show transactions exclusively with the status as Pending."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "21",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "GST Tax-wise Purchase Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows a summary of purchase invoices and returns grouped by GST percentages, displaying taxable values alongside specific SGST, CGST, and IGST breakdowns."]
                 ]
             }
         ]
