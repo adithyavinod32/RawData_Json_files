@@ -1,0 +1,345 @@
+```json
+[
+    {
+        "sl_no": "1",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Request Register",
+        "parameter_types": [
+            {
+                "parameter_type": "Status",
+                "parameters": [
+                    ["Pending", "Shows transactions where purchase request was created without any of proceeding transactions performed yet."],
+                    ["Order Generated", "Shows purchase requests converted to a purchase order."],
+                    ["Partial", "Purchase request transactions whose purchase order was generated for fewer items or a lower quantity than requested."],
+                    ["Invoice Generated", "Shows purchase requests with purchase invoice generated against them."],
+                    ["Short Closed", "Displays purchase requests where the items ordered was not fully received, but the request was short-closed to mark it as completed."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "2",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Order Register",
+        "parameter_types": [
+            {
+                "parameter_type": "Status",
+                "parameters": [
+                    ["Pending", "Shows purchase orders raised with no further action taken yet."],
+                    ["Partial", "Purchase order transactions whose invoice was generated for fewer items or a lower quantity than ordered."],
+                    ["Invoice Generated", "Shows purchase orders with purchase invoice generated against them."],
+                    ["Short Closed", "Displays purchase orders where the items ordered was not fully received, but the request was short-closed to mark it as completed."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "3",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Goods in Transit Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows GRM transactions where goods are yet to be received. (GRM transaction is saved with Receipt date left blank)."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "4",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Goods Delivery Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows GRM transactions where goods have been received. (GRM transaction is saved with Receipt date filled)."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "5",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Godown Stock Details",
+        "parameter_types": [
+            {
+                "parameter_type": "Stock Ageing",
+                "parameters": [
+                    ["User inputs number", "Displays available physical stock in the godown that has remained idle for the entered number of days or more."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "6",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "GRM Not Purchased",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows GRM transactions that have been received and saved but do not have a purchase invoice generated against them."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "7",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Invoice Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "Selection Criterion",
+                "parameters": [
+                    ["Purchase Invoice Date", "Displays a summary of purchase invoices generated within a selected date range ordered by purchase invoice date."],
+                    ["Supplier Invoice Date", "Displays a summary of purchase invoices generated within a selected date range ordered by supplier invoice date."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "8",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Invoice Details",
+        "parameter_types": [
+            {
+                "parameter_type": "Selection Criterion",
+                "parameters": [
+                    ["Purchase Invoice Date", "Shows an item-wise breakdown of purchase invoices generated within the selected date range ordered by purchase invoice date."],
+                    ["Supplier Invoice Date", "Shows an item-wise breakdown of purchase invoices generated within the selected date range ordered by supplier invoice date."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "9",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Invoice Register",
+        "parameter_types": [
+            {
+                "parameter_type": "Grouping type",
+                "parameters": [
+                    ["Category", "Shows a register of purchase invoices generated within the selected date range, grouped by item categories with sub-totals for quantities and net amounts."],
+                    ["Subcategory", "Shows a register of purchase invoices generated within the selected date range, grouped by item subcategories with sub-totals for quantities and net amounts."],
+                    ["Supplier", "Shows a register of purchase invoices generated within the selected date range, grouped by suppliers with sub-totals for quantities, net amounts, and additional charges."],
+                    ["Place", "Shows a register of purchase invoices generated within the selected date range, grouped by supplier locations with sub-totals for quantities, net amounts, and additional charges."],
+                    ["Category Group", "Shows a register summary of purchase invoices generated within the selected date range, grouped by item category groups with sub-totals for quantities and net amounts."],
+                    ["Brand", "Shows a register of purchase invoices generated within the selected date range, grouped by item brands with sub-totals for quantities and net amounts."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "10",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Tax Wise Purchase Register Report",
+        "parameter_types": [
+            {
+                "parameter_type": "Purchase Type",
+                "parameters": [
+                    ["Local", "Filters the report to show transactions exclusively within the state, displaying zero IGST alongside domestic SGST and CGST values."],
+                    ["Inter-State", "Filters the report to show inter-state transactions, displaying active IGST values with zero domestic tax values."],
+                    ["All", "Filters the report to show both interstate and local transactions with respective values assigned to IGST or SGST and CGST values based on type of transaction."]
+                ]
+            },
+            {
+                "parameter_type": "Report Type",
+                "parameters": [
+                    ["Summary", "Shows a summary of purchase invoices and returns listed by transaction, displaying vendor GSTINs, taxable amounts, and explicit tax breakdowns alongside additional charges and total amount."],
+                    ["Detail", "Shows an item-wise breakdown of purchase invoices and returns listed by transaction, displaying HSN codes, individual rates, item quantities, and distinct tax information along with total amount and its aggregate for both purchase invoice and return."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "11",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchased Not Priced Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows purchase invoices generated but have not had their final selling prices defined (pricing status partial or pending)."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "12",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Return Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows a summary of goods returned to suppliers with reference to their original purchase invoices and total transaction amounts."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "13",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Purchase Return Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows item-wise breakdowns of goods returned to suppliers."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "14",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Consolidated Purchase Register Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [
+                    ["", "Shows purchase invoices alongside their corresponding returns to calculate the net purchase quantities and net transaction amounts."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "15",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Tax Wise Purchase Return Register Report",
+        "parameter_types": [
+            {
+                "parameter_type": "Report Type",
+                "parameters": [
+                    ["Summary", "Shows a summary of purchase returns listed by transaction, displaying vendor GSTINs, taxable amounts, and explicit tax breakdowns alongside additional charges."],
+                    ["Detailed", "Shows an item-wise breakdown of purchase returns listed by transaction, displaying HSN codes, individual rates, return quantities, and distinct tax percentages."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "16",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Credit / Debit Note Details",
+        "parameter_types": [
+            {
+                "parameter_type": "Transaction Type",
+                "parameters": [
+                    ["Credit", "Shows a detailed list of credit note transactions generated within the selected date range."],
+                    ["Debit", "Shows a detailed list of debit note transactions generated within the selected date range."]
+                ]
+            },
+            {
+                "parameter_type": "Party",
+                "parameters": [
+                    ["Customer", "Filters transaction list of credit / debit note where party type is customer."],
+                    ["Supplier", "Filters transaction list of credit / debit note where party type is supplier."]
+                ]
+            },
+            {
+                "parameter_type": "Reason",
+                "parameters": [
+                    ["Request", "Filters transaction list of credit / debit note where reason for transaction is Damage."],
+                    ["Exchange", "Filters transaction list of credit / debit note where reason for transaction is Exchange."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "17",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Consolidated Credit/Debit Note Register",
+        "parameter_types": [
+            {
+                "parameter_type": "Grouping Type",
+                "parameters": [
+                    ["Category-wise", "Shows a consolidated register of credit and debit notes grouped by item categories with sub-totals for taxable, tax, and total amounts."],
+                    ["Party-wise", "Shows a consolidated register of credit and debit notes grouped by individual supplier names with sub-totals for taxable, tax, and total amounts."]
+                ]
+            },
+            {
+                "parameter_type": "Transaction Type",
+                "parameters": [
+                    ["Credit", "Filters the transaction list to show only credit notes."],
+                    ["Debit", "Filters the transaction list to show only debit notes."]
+                ]
+            },
+            {
+                "parameter_type": "Place (search)",
+                "parameters": [
+                    ["User input", "Filters the transaction list to show transactions from exclusively the selected place."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "18",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "Debit Note Cancellation Report",
+        "parameter_types": [
+            {
+                "parameter_type": "Transaction Type",
+                "parameters": [
+                    ["Debit", "Shows a list of cancelled debit note transactions, displaying their cancellation numbers and original document references alongside total amount values."],
+                    ["Credit", "Shows a list of cancelled credit note transactions, displaying their cancellation numbers and original document references alongside total amount values."]
+                ]
+            },
+            {
+                "parameter_type": "Place (search)",
+                "parameters": [
+                    ["User input", "Filters the transaction list to show transactions from exclusively the selected place."]
+                ]
+            },
+            {
+                "parameter_type": "Supplier (search)",
+                "parameters": [
+                    ["User input", "Filters the transaction list to show transactions from exclusively the selected supplier."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "19",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "GST R2 Submitted Details Report",
+        "parameter_types": [
+            {
+                "parameter_type": "Status",
+                "parameters": [
+                    ["Submitted", ""],
+                    ["Not Submitted", ""]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "20",
+        "module": "Purchase",
+        "option_type": "Reports",
+        "option_name": "GST R2 Submitted Report",
+        "parameter_types": [
+            {
+                "parameter_type": "Trans Type",
+                "parameters": [
+                    ["Consumption/Capital Purchase", "Shows GSTR-2 submitted details transactions whose transaction type is consumption/capital purchase, displaying supplier GSTINs, invoice
