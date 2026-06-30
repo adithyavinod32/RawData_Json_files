@@ -15,7 +15,8 @@
             },
              {
                 "parameter_type": "Report type",
-                "parameters": [["Summary", "Detialed"]]
+                "parameters": [["Summary", ""], 
+                                ["Detialed", ""]]
             }          
         ]
     },
