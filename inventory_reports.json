@@ -82,8 +82,22 @@
         "option_name": "Stock Ageing Supplier-wise",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Report type",
+                "parameters": [
+                    ["Summary", ""], 
+                    ["Detailed", ""]
+                ]
+            },
+            {
+                "parameter_type": "Ageing in Days",
                 "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Price Range",
+                "parameters": [
+                    ["MRP", ""],
+                    ["Cost", ""]
+                ]
             }
         ]
     },
@@ -94,7 +108,7 @@
         "option_name": "Outward and Bale Stock Report (Old Name : Date-wise Stock Report)",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Not found",
                 "parameters": [["", ""]]
             }
         ]
