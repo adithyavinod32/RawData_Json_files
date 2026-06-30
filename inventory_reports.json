@@ -29,8 +29,11 @@
         "option_name": "Priced Sticker Not Generated",
         "parameter_types": [
             {
-                "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameter_type": "Report Type",
+                "parameters": [
+                    ["Priced - Not Ready to print", ""],
+                    ["Priced - Sticker Not Generated", ""] 
+                ]
             }
         ]
     },
