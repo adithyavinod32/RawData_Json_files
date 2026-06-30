@@ -6,9 +6,18 @@
         "option_name": "Pricing Details Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Supplier",
                 "parameters": [["", ""]]
-            }
+            },
+             {
+                "parameter_type": "Purchase Invoice No.",
+                "parameters": [["", ""]]
+            },
+             {
+                "parameter_type": "Report type",
+                "parameters": [["Summary", "Detialed"]]
+            },
+            
         ]
     },
     {
