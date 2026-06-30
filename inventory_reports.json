@@ -119,4 +119,497 @@
             }
         ]
     }
+
+    {
+        "sl_no": "11",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Purchase Age-wise Sales Analysis (Old Name : Stock Statement Non Moving Item)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "12",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Statement Barcode-wise Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "13",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Statement Tax-wise Report (Old Name : Stock Statement Category-wise Tax-wise Report)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "14",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Negative Stock Statement Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "15",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Subcategory -wise Stock Rotation Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "16",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Valuation Tax-wise Report (Old Name : Stock Valuation GST Report)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "17",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "MRP Range-wise Sales Report (Old Name : MRP Range-wise Report)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "18",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "MRP/Cost Range-wise category Report (Old Name : Range-wise category Report)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "19",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Transaction Tracking Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "20",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Subcategory-wise Gross Profit Report (Old Name : Gross Profit Report)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "21",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Supplier Sales Analysis report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "22",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Purchase-wise sales analysis report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "23",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Supplier Analysis report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "24",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Purchase-wise Sales Report(Supplier-wise)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "25",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "EAN Stock Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "26",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Profitability Statement Category Brand-Wise Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "27",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Profit Projection Section-wise Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "28",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock MRP Less Than Cost Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "29",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Add Barcode Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "30",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Product Stock Amend Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "31",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Convert To Cut Piece Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "32",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Approval Issue Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "33",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Approval Issue Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "34",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Approval Issue Not Returned",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "35",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Approval Return Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "36",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Adjustment Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "37",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Product Packing Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "38",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Product Packing Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "39",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Packet Amend Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "40",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Transfer Issue Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "41",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Transfer Issue Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "42",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Transfer Issue Register",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "43",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Tax-wise Stock Transfer Details Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "44",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Transfer Goods In-Transit Inward/Outward",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "45",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Branch-wise Section-wise Stock Transfer Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "46",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Transfer Receipt Details",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "47",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Transfer Receipt Summary",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "48",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Taking InProgress Report (New Report)",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "49",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Taking Summary Report",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "50",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Stock Taking Closure Report (New Report )",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    },
+    {
+        "sl_no": "51",
+        "module": "Inventory",
+        "option_type": "Reports",
+        "option_name": "Dashboard",
+        "parameter_types": [
+            {
+                "parameter_type": "",
+                "parameters": [["", ""]]
+            }
+        ]
+    }
 ]
