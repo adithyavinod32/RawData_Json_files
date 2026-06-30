@@ -187,7 +187,7 @@
         "option_name": "Purchase Age-wise Sales Analysis (Old Name : Stock Statement Non Moving Item)",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Not Found",
                 "parameters": [["", ""]]
             }
         ]
@@ -235,8 +235,27 @@
         "option_name": "Subcategory -wise Stock Rotation Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Report Type",
+                "parameters": [
+                    ["Subcategory-wise", ""],
+                    ["Supplier-wise", ""]
+                ]
+            },
+            {
+                "parameter_type": "Pricing Range MRP From",
                 "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Pricing Range MRP To",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Purchase Type",
+                "parameters": [
+                    ["Local", ""],
+                    ["Inter State", ""],
+                    ["All", ""],
+                ]
             }
         ]
     },
