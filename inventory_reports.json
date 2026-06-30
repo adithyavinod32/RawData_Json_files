@@ -56,8 +56,22 @@
         "option_name": "Stock Ageing Category-wise",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Report type",
+                "parameters": [
+                    ["Summary", ""], 
+                    ["Detailed", ""]
+                ]
+            },
+            {
+                "parameter_type": "Ageing in Days",
                 "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Price Range",
+                "parameters": [
+                    ["MRP", ""],
+                    ["Cost", ""]
+                ]
             }
         ]
     },
