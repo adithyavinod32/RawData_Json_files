@@ -354,7 +354,13 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [
+                    ["Place", ""],
+                    ["Supplier", ""],
+                    ["Section", ""],
+                    ["Category", ""],
+                    ["Subcategory", ""]
+                ]
             }
         ]
     },
@@ -365,7 +371,11 @@
         "option_name": "Supplier Analysis report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "MRP Range",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Purchase Invoice No.",
                 "parameters": [["", ""]]
             }
         ]
