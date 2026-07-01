@@ -598,7 +598,7 @@
                     ["Customer", ""],
                     ["Supplier", ""]
                 ]
-            }
+            },
             {
                 "parameter_type": "Reason",
                 "parameters": [
@@ -615,8 +615,18 @@
         "option_name": "Approval Issue Details",
         "parameter_types": [
             {
-                "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameter_type": "Party",
+                "parameters": [
+                    ["Customer", ""],
+                    ["Supplier", ""]
+                ]
+            },
+            {
+                "parameter_type": "Reason",
+                "parameters": [
+                    ["Exhibition Sale", ""],
+                    ["Sample Purchase", ""]
+                ]
             }
         ]
     },
@@ -627,8 +637,18 @@
         "option_name": "Approval Issue Not Returned",
         "parameter_types": [
             {
-                "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameter_type": "Party",
+                "parameters": [
+                    ["Customer", ""],
+                    ["Supplier", ""]
+                ]
+            },
+            {
+                "parameter_type": "Reason",
+                "parameters": [
+                    ["Exhibition Sale", ""],
+                    ["Sample Purchase", ""]
+                ]
             }
         ]
     },
@@ -639,8 +659,11 @@
         "option_name": "Approval Return Summary",
         "parameter_types": [
             {
-                "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameter_type": "Party",
+                "parameters": [
+                    ["Customer", ""],
+                    ["Supplier", ""]
+                ]
             }
         ]
     },
