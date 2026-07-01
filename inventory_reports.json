@@ -726,7 +726,15 @@
         "option_name": "Product Packing Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Target Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Packet No.",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Final Destination",
                 "parameters": [["", ""]]
             }
         ]
@@ -738,8 +746,25 @@
         "option_name": "Packet Amend Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Source Location",
                 "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Packet No.",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Final Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Transaction Type",
+                "parameters": [
+                    ["Re-Route", ""],
+                    ["Cancel", ""],
+                    ["Edit", ""],
+                    ["Split", ""],
+                ]
             }
         ]
     },
@@ -750,7 +775,15 @@
         "option_name": "Stock Transfer Issue Summary",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Target Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Packet No.",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Final Destination",
                 "parameters": [["", ""]]
             }
         ]
