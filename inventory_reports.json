@@ -329,7 +329,7 @@
                 "parameter_type": "Purchase/Sales",
                 "parameters": [
                     ["Purchase", ""],
-                    ["Sales", ""],
+                    ["Sales", ""]
                 ]
             },
              {
