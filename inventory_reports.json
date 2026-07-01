@@ -795,7 +795,19 @@
         "option_name": "Stock Transfer Issue Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Source Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Target Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Packet No.",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Final Destination",
                 "parameters": [["", ""]]
             }
         ]
@@ -807,7 +819,15 @@
         "option_name": "Stock Transfer Issue Register",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Source Branch",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Target Branch",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Stock Transfer Issue No.",
                 "parameters": [["", ""]]
             }
         ]
@@ -819,8 +839,15 @@
         "option_name": "Tax-wise Stock Transfer Details Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Tax %",
                 "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Inward / Outward",
+                "parameters": [
+                    ["Inward", ""],
+                    ["Outward", ""]
+                ]
             }
         ]
     },
@@ -831,8 +858,19 @@
         "option_name": "Stock Transfer Goods In-Transit Inward/Outward",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "From Location",
                 "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "To Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Inward / Outward",
+                "parameters": [
+                    ["Inward", ""],
+                    ["Outward", ""]
+                ]
             }
         ]
     },
@@ -843,7 +881,23 @@
         "option_name": "Branch-wise Section-wise Stock Transfer Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Recipt Branch",
+                "parameters": [["", ""]]
+            }
+             {
+                "parameter_type": "Supplier",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Brand",
                 "parameters": [["", ""]]
             }
         ]
@@ -855,7 +909,15 @@
         "option_name": "Stock Transfer Receipt Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Source Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Packet No.",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Final Destination",
                 "parameters": [["", ""]]
             }
         ]
