@@ -166,6 +166,21 @@
         "sl_no": "11",
         "module": "Purchase",
         "option_type": "Reports",
+        "option_name": "Tax Wise Purchase Return Register Report",
+        "parameter_types": [
+            {
+                "parameter_type": "Report Type",
+                "parameters": [
+                    ["Summary", "Shows a summary of purchase returns listed by transaction, displaying vendor GSTINs, taxable amounts, and explicit tax breakdowns alongside additional charges."],
+                    ["Detailed", "Shows an item-wise breakdown of purchase returns listed by transaction, displaying HSN codes, individual rates, return quantities, and distinct tax percentages."]
+                ]
+            }
+        ]
+    },
+    {
+        "sl_no": "12",
+        "module": "Purchase",
+        "option_type": "Reports",
         "option_name": "Purchased Not Priced Details",
         "parameter_types": [
             {
@@ -177,7 +192,7 @@
         ]
     },
     {
-        "sl_no": "12",
+        "sl_no": "13",
         "module": "Purchase",
         "option_type": "Reports",
         "option_name": "Purchase Return Summary",
@@ -191,7 +206,7 @@
         ]
     },
     {
-        "sl_no": "13",
+        "sl_no": "14",
         "module": "Purchase",
         "option_type": "Reports",
         "option_name": "Purchase Return Details",
@@ -205,7 +220,7 @@
         ]
     },
     {
-        "sl_no": "14",
+        "sl_no": "15",
         "module": "Purchase",
         "option_type": "Reports",
         "option_name": "Consolidated Purchase Register Report",
@@ -214,21 +229,6 @@
                 "parameter_type": "",
                 "parameters": [
                     ["", "Shows purchase invoices alongside their corresponding returns to calculate the net purchase quantities and net transaction amounts."]
-                ]
-            }
-        ]
-    },
-    {
-        "sl_no": "15",
-        "module": "Purchase",
-        "option_type": "Reports",
-        "option_name": "Tax Wise Purchase Return Register Report",
-        "parameter_types": [
-            {
-                "parameter_type": "Report Type",
-                "parameters": [
-                    ["Summary", "Shows a summary of purchase returns listed by transaction, displaying vendor GSTINs, taxable amounts, and explicit tax breakdowns alongside additional charges."],
-                    ["Detailed", "Shows an item-wise breakdown of purchase returns listed by transaction, displaying HSN codes, individual rates, return quantities, and distinct tax percentages."]
                 ]
             }
         ]
