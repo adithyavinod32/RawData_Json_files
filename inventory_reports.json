@@ -559,11 +559,11 @@
             {
                 "parameter_type": "Transaction Type",
                 "parameters": [["", ""]]
-            }
+            },
             {
                 "parameter_type": "Transaction No.",
                 "parameters": [["", ""]]
-            }
+            },
             {
                 "parameter_type": "MRP Less Than Cost",
                 "parameters": [["", ""]]
