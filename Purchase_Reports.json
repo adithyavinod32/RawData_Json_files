@@ -326,8 +326,8 @@
             {
                 "parameter_type": "Status",
                 "parameters": [
-                    ["Submitted", ""],
-                    ["Not Submitted", ""]
+                    ["Submitted", "This report shows submitted GSTR-2 submitted details transactions"],
+                    ["Not Submitted", "This report shows not submitted GSTR-2 submitted details transactions"]
                 ]
             }
         ]
