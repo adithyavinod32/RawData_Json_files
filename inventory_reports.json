@@ -883,8 +883,8 @@
             {
                 "parameter_type": "Recipt Branch",
                 "parameters": [["", ""]]
-            }
-             {
+            },
+            {
                 "parameter_type": "Supplier",
                 "parameters": [["", ""]]
             },
