@@ -425,7 +425,31 @@
         "option_name": "Stock Profitability Statement Category Brand-Wise Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Place",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Supplier",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category group",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Subcategory",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Brand",
                 "parameters": [["", ""]]
             }
         ]
@@ -437,7 +461,31 @@
         "option_name": "Stock Profit Projection Section-wise Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Place",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Supplier",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category group",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Subcategory",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Brand",
                 "parameters": [["", ""]]
             }
         ]
@@ -449,7 +497,27 @@
         "option_name": "Stock MRP Less Than Cost Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Summary / Detials",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Supplier",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category group",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Brand",
                 "parameters": [["", ""]]
             }
         ]
@@ -461,7 +529,23 @@
         "option_name": "Add Barcode Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Supplier",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category group",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Subcategory",
                 "parameters": [["", ""]]
             }
         ]
@@ -473,7 +557,15 @@
         "option_name": "Product Stock Amend Details",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Transaction Type",
+                "parameters": [["", ""]]
+            }
+            {
+                "parameter_type": "Transaction No.",
+                "parameters": [["", ""]]
+            }
+            {
+                "parameter_type": "MRP Less Than Cost",
                 "parameters": [["", ""]]
             }
         ]
