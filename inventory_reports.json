@@ -674,7 +674,27 @@
         "option_name": "Stock Adjustment Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Place",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Supplier",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Category",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Subcategory",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Brand",
                 "parameters": [["", ""]]
             }
         ]
@@ -686,7 +706,15 @@
         "option_name": "Product Packing Summary",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Target Location",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Packet No.",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Final Destination",
                 "parameters": [["", ""]]
             }
         ]
