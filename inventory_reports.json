@@ -577,7 +577,11 @@
         "option_name": "Convert To Cut Piece Report",
         "parameter_types": [
             {
-                "parameter_type": "",
+                "parameter_type": "Section",
+                "parameters": [["", ""]]
+            },
+            {
+                "parameter_type": "Ref No",
                 "parameters": [["", ""]]
             }
         ]
@@ -589,8 +593,18 @@
         "option_name": "Approval Issue Summary",
         "parameter_types": [
             {
-                "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameter_type": "Party",
+                "parameters": [
+                    ["Customer", ""],
+                    ["Supplier", ""]
+                ]
+            }
+            {
+                "parameter_type": "Reason",
+                "parameters": [
+                    ["Exhibition Sale", ""],
+                    ["Sample Purchase", ""]
+                ]
             }
         ]
     },
