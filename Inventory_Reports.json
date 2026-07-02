@@ -200,7 +200,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", "Displays stock quantities, item costs, and MRP values down to the unique barcode level, filtered and grouped by selected category and subcategory as of the selected date."]]
+                "parameters": [["", "Displays stock quantities, item costs and MRP values down to the unique barcode level, filtered and grouped by selected category and subcategory as of the selected date."]]
             }
         ]
     },
@@ -224,7 +224,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays negative stock quantities, cost rates, and retail prices at the barcode level, grouped and totaled by product category as of the selected date. "]]
             }
         ]
     },
@@ -353,23 +353,7 @@
         "option_name": "Purchase-wise sales analysis report",
         "parameter_types": [
             {
-                "parameter_type": "Place",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Subcategory",
+                "parameter_type": "",
                 "parameters": [["", ""]]
             }
         ]
@@ -409,11 +393,7 @@
         "option_name": "EAN Stock Report",
         "parameter_types": [
             {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Brand",
+                "parameter_type": "",
                 "parameters": [["", ""]]
             }
         ]
@@ -425,31 +405,7 @@
         "option_name": "Stock Profitability Statement Category Brand-Wise Report",
         "parameter_types": [
             {
-                "parameter_type": "Place",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category group",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Subcategory",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Brand",
+                "parameter_type": "",
                 "parameters": [["", ""]]
             }
         ]
@@ -461,31 +417,7 @@
         "option_name": "Stock Profit Projection Section-wise Report",
         "parameter_types": [
             {
-                "parameter_type": "Place",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category group",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Subcategory",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Brand",
+                "parameter_type": "",
                 "parameters": [["", ""]]
             }
         ]
@@ -497,28 +429,11 @@
         "option_name": "Stock MRP Less Than Cost Report",
         "parameter_types": [
             {
-                "parameter_type": "Summary / Detials",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category group",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Brand",
-                "parameters": [["", ""]]
+                "parameter_type": "Summary / Details",
+                "parameters": [
+                    ["Summary", ""],
+                    ["Details", ""]
+                ]
             }
         ]
     },
@@ -529,23 +444,7 @@
         "option_name": "Add Barcode Details",
         "parameter_types": [
             {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category group",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Subcategory",
+                "parameter_type": "",
                 "parameters": [["", ""]]
             }
         ]
