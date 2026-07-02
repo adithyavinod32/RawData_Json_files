@@ -31,8 +31,8 @@
             {
                 "parameter_type": "Report Type",
                 "parameters": [
-                    ["Priced - Not Ready to print", ""],
-                    ["Priced - Sticker Not Generated", ""] 
+                    ["Priced - Not Ready to print", "This report shows purchase invoice transactions that have completed Pricing Config but are not yet approved for printing, displaying the pricing numbers, priced quantities, taxable amounts, and batch ageing."],
+                    ["Priced - Sticker Not Generated", "This report shows purchase invoice transactions that have completed Pricing Config and are ready to print, but the actual Sticker Generation process has not been executed yet, displaying the pricing numbers, priced quantities, taxable amounts, and batch ageing."] 
                 ]
             }
         ]
