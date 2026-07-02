@@ -200,7 +200,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays stock quantities, item costs, and MRP values down to the unique barcode level, filtered and grouped by selected category and subcategory as of the selected date."]]
             }
         ]
     },
