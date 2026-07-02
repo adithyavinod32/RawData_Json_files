@@ -573,27 +573,7 @@
         "option_name": "Stock Adjustment Report",
         "parameter_types": [
             {
-                "parameter_type": "Place",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Subcategory",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Brand",
+                "parameter_type": "",
                 "parameters": [["", ""]]
             }
         ]
@@ -781,22 +761,6 @@
         "parameter_types": [
             {
                 "parameter_type": "Recipt Branch",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Supplier",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Brand",
                 "parameters": [["", ""]]
             }
         ]
