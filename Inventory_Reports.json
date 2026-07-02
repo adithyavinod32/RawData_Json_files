@@ -121,7 +121,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays category groups, stock quantities and cost values grouped and totaled by section as of the selected date "]]
             }
         ]
     },
@@ -133,7 +133,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays section groups, stock quantities and cost values grouped and totaled by category as of the selected date "]]
             }
         ]
     },
