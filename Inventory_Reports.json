@@ -6,20 +6,20 @@
         "option_name": "Pricing Details Report",
         "parameter_types": [
             {
+                "parameter_type": "Report type",
+                "parameters": [
+                    ["Summary", "This report details Pricing Config transactions within the selected timeframe, displaying the finalized MRP and item cost for each barcode"], 
+                    ["Detialed", "This report details Pricing Config transactions within the selected timeframe, displaying the item cost along with pre-tax and post-tax MRP and margin values per barcode"]
+                ]
+            },    
+            {
                 "parameter_type": "Supplier",
                 "parameters": [["", "Filters the report to show transaction details exclusively to the selected supplier"]]
             },
              {
                 "parameter_type": "Purchase Invoice No.",
                 "parameters": [["", "Filters the report to show transaction details specific to the selected Purchase Invoice Number"]]
-            },
-             {
-                "parameter_type": "Report type",
-                "parameters": [
-                    ["Summary", "This report details Pricing Config transactions within the selected timeframe, displaying the finalized MRP and item cost for each barcode"], 
-                    ["Detialed", "This report details Pricing Config transactions within the selected timeframe, displaying the item cost along with pre-tax and post-tax MRP and margin values per barcode"]
-                ]
-            }          
+            }      
         ]
     },
     {
