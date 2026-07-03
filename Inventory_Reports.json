@@ -366,11 +366,11 @@
         "parameter_types": [
             {
                 "parameter_type": "MRP Range",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays purchase invoice transactions for selected suppliers, showing item subcategories, cost, MRP, purchase return quantities and net sale quantities where the MRP falls within the specified range"]]
             },
             {
                 "parameter_type": "Purchase Invoice No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Filters the report to show transaction details for the selected Purchase Invoice Number"]]
             }
         ]
     },
