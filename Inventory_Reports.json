@@ -328,20 +328,20 @@
             {
                 "parameter_type": "Purchase/Sales",
                 "parameters": [
-                    ["Purchase", ""],
-                    ["Sales", ""]
+                    ["Purchase", "Displays purchase metrics, sales performance, and current stock levels for specific vendors based on purchase transactions, grouped and totaled based on the selected grouping type"],
+                    ["Sales", "Displays purchase metrics, sales performance, and current stock levels for specific vendors based on POS transactions, grouped and totaled based on the selected grouping type"]
                 ]
             },
              {
                 "parameter_type": "Supplier",
-                "parameters": [["", ""]]
+                "parameters": [["", "Filters the report to show transaction details exclusively to the selected supplier"]]
             },
              {
                 "parameter_type": "Grouping Type",
                 "parameters": [
-                    ["Category", ""],
-                    ["Section", ""],
-                    ["Subcategory", ""]
+                    ["Category", "Groups the report data based on category"],
+                    ["Section", "Groups the report data based on Section"],
+                    ["Subcategory", "Groups the report data based on Subcategory"]
                 ]
             }
         ]
