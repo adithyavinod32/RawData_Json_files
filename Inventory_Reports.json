@@ -382,7 +382,7 @@
         "parameter_types": [
             {
                 "parameter_type": "Supplier",
-                "parameters": [["", ""]]
+                "parameters": [["", "Glitch and report not showing"]]
             }
         ]
     },
@@ -394,7 +394,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays available stock quantities, costs, and MRP mapped to unique barcodes and EAN numbers, filtered by supplier and product brand"]]
             }
         ]
     },
