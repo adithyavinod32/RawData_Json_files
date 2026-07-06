@@ -478,11 +478,11 @@
         "parameter_types": [
             {
                 "parameter_type": "Section",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays reference numbers, old and new subcategories, old and newly generated barcodes, quantities, and cost alongside updated MRP generated via the Convert To Cut Piece screen for selected sectoin"]]
             },
             {
                 "parameter_type": "Ref No",
-                "parameters": [["", ""]]
+                "parameters": [["", "Filters the report to show Convert To Cut Piece transaction details for the selected reference Number"]]
             }
         ]
     },
@@ -495,15 +495,15 @@
             {
                 "parameter_type": "Party",
                 "parameters": [
-                    ["Customer", ""],
-                    ["Supplier", ""]
+                    ["Customer", "Displays issue numbers, party names, reasons, and total quantities generated via the Approval Issue screen for the selected date range where party is customer"],
+                    ["Supplier", "Displays issue numbers, party names, reasons, and total quantities generated via the Approval Issue screen for the selected date range where party is supplier"]
                 ]
             },
             {
                 "parameter_type": "Reason",
                 "parameters": [
-                    ["Exhibition Sale", ""],
-                    ["Sample Purchase", ""]
+                    ["Exhibition Sale", "Displays issue numbers, party names, reasons, and total quantities generated via the Approval Issue screen for the selected date range where reason is exhibition sale"],
+                    ["Sample Purchase", "Displays issue numbers, party names, reasons, and total quantities generated via the Approval Issue screen for the selected date range where reason is sample purchase"]
                 ]
             }
         ]
