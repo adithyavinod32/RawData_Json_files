@@ -445,7 +445,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transaction numbers, unique barcodes, quantities, cost and MRP for newly added inventory records generated via the Add Barcode screen for the selected date range"]]
             }
         ]
     },
@@ -457,15 +457,16 @@
         "parameter_types": [
             {
                 "parameter_type": "Transaction Type",
-                "parameters": [["", ""]]
+                "parameters": [["Item Change", "Displays old and new subcategories, parent and new barcodes, quantities, and cost alongside updated MRP generated via the Product Stock Amend screen for item changes"],
+                                ["Edit", "Displays unique barcodes, old and new subcategories, quantities, and cost alongside updated MRP generated via the Product Stock Amend screen for item edits"]]
             },
             {
                 "parameter_type": "Transaction No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Filters the report to show product stock amend transaction details for the selected Transaction Number"]]
             },
             {
                 "parameter_type": "MRP Less Than Cost",
-                "parameters": [["", ""]]
+                "parameters": [["", "Filters the report to show product stock amend transaction details where MRP is less than cost "]]
             }
         ]
     },
