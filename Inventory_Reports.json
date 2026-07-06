@@ -431,8 +431,8 @@
             {
                 "parameter_type": "Summary / Details",
                 "parameters": [
-                    ["Summary", ""],
-                    ["Details", ""]
+                    ["Summary", "Displays the cost and MRP for active stock lines where the MRP is lower than the unit cost rate, alongside the triggering transaction type and numbers, grouped by product section and category group"],
+                    ["Details", "Displays individual barcodes, stock quantities, cost rates, and retail prices down to the unique barcode level where the MRP is lower than the unit cost,alongside the triggering transaction type and numbers, grouped by product section, category group, category, sub-category"]
                 ]
             }
         ]
