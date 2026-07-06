@@ -406,7 +406,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "The report shows net sales values, item cost values, and absolute margins, grouped by product category."]]
             }
         ]
     },
@@ -418,7 +418,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "The report shows current stock quantities, cost values alongside projected sales values and projected margin, grouped and totaled by section"]]
             }
         ]
     },
