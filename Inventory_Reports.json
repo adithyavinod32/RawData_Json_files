@@ -587,15 +587,15 @@
         "parameter_types": [
             {
                 "parameter_type": "Target Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "The report lists packet numbers, source location and target location for bundled inventory batches processed via the Product Packing screen for the selected date range and specified target location"]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "The report lists packet numbers, source location and target location for bundled inventory batches processed via the Product Packing screen for the selected date range and specified package number"]]
             },
             {
                 "parameter_type": "Final Destination",
-                "parameters": [["", ""]]
+                "parameters": [["", "The report lists packet numbers, source location and target location for bundled inventory batches processed via the Product Packing screen for the selected date range and specified Final Destination"]]
             }
         ]
     },
@@ -605,17 +605,21 @@
         "option_type": "Reports",
         "option_name": "Product Packing Details",
         "parameter_types": [
+             {
+                "parameter_type": "Source Location",
+                "parameters": [["", "Displays packet numbers, source location and target location along with unique barcodes, packed quantities and MRP generated via the Product Packing screen for the specified source location"]]
+            },
             {
                 "parameter_type": "Target Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays packet numbers, source location and target location along with unique barcodes, packed quantities and MRP generated via the Product Packing screen for the specified target location"]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays packet numbers, source location and target location along with unique barcodes, packed quantities and MRP generated via the Product Packing screen for the specified packet. no"]]
             },
             {
                 "parameter_type": "Final Destination",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays packet numbers, source location and target location along with unique barcodes, packed quantities and MRP generated via the Product Packing screen for the specified final destination"]]
             }
         ]
     },
@@ -627,23 +631,23 @@
         "parameter_types": [
             {
                 "parameter_type": "Source Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for the specified source location"]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for the specified packet number"]]
             },
             {
                 "parameter_type": "Final Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for the specified final location"]]
             },
             {
                 "parameter_type": "Transaction Type",
                 "parameters": [
-                    ["Re-Route", ""],
-                    ["Cancel", ""],
-                    ["Edit", ""],
-                    ["Split", ""]
+                    ["Re-Route", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for transactions with transaction type Re-Route"],
+                    ["Cancel", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for transactions with transaction type Cancel"],
+                    ["Edit", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for transactions with transaction type edit"],
+                    ["Split", "Displays packet numbers, source location, final destination and transaction type generated via the Product Packing screen for transactions with transaction type Split"]
                 ]
             }
         ]
