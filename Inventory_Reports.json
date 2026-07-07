@@ -44,8 +44,8 @@
         "option_name": "Barcode History Drill-Down Report",
         "parameter_types": [
             {
-                "parameter_type": "Error upon opening report",
-                "parameters": [["", ""]]
+                "parameter_type": "",
+                "parameters": [["", "Error upon opening report"]]
             }
         ]
     },
@@ -108,8 +108,8 @@
         "option_name": "Outward and Bale Stock Report (Old Name : Date-wise Stock Report)",
         "parameter_types": [
             {
-                "parameter_type": "Not found",
-                "parameters": [["", ""]]
+                "parameter_type": "",
+                "parameters": [["", " Reprt Not found"]]
             }
         ]
     },
@@ -354,7 +354,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "The report shows net purchase quantities against net sale quantities alongside balance quantities, grouped by purchase invoice numbers and item subcategories"]]
             }
         ]
     },
