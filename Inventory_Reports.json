@@ -517,15 +517,15 @@
             {
                 "parameter_type": "Party",
                 "parameters": [
-                    ["Customer", ""],
-                    ["Supplier", ""]
+                    ["Customer", "Displays issue numbers, party names, Barcodes, MRP and total quantities generated via the Approval Issue screen for the selected date range where party is customer"],
+                    ["Supplier", "Displays issue numbers, party names, Barcodes, MRP and total quantities generated via the Approval Issue screen for the selected date range where party is supplier"]
                 ]
             },
             {
                 "parameter_type": "Reason",
                 "parameters": [
-                    ["Exhibition Sale", ""],
-                    ["Sample Purchase", ""]
+                    ["Exhibition Sale", "Displays issue numbers, party names, Barcodes, MRP and total quantities generated via the Approval Issue screen for the selected date range where reason is exhibition sale"],
+                    ["Sample Purchase", "Displays issue numbers, party names, Barcodes, MRP and total quantities generated via the Approval Issue screen for the selected date range where reason is sample purchase"]
                 ]
             }
         ]
@@ -539,15 +539,15 @@
             {
                 "parameter_type": "Party",
                 "parameters": [
-                    ["Customer", ""],
-                    ["Supplier", ""]
+                    ["Customer", "Displays unique barcodes, original quantities and outstanding unreturned balances for approval issues not returned, where party is customer"],
+                    ["Supplier", "Displays unique barcodes, original quantities and outstanding unreturned balances for approval issues not returned, where party is supplier"]
                 ]
             },
             {
                 "parameter_type": "Reason",
                 "parameters": [
-                    ["Exhibition Sale", ""],
-                    ["Sample Purchase", ""]
+                    ["Exhibition Sale", "Displays unique barcodes, original quantities and outstanding unreturned balances for approval issues not returned, where reason is Exhibition Sale"],
+                    ["Sample Purchase", "Displays unique barcodes, original quantities and outstanding unreturned balances for approval issues not returned, where reason is Sample Purchase"]
                 ]
             }
         ]
