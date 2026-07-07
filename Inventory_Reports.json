@@ -575,7 +575,7 @@
         "parameter_types": [
             {
                 "parameter_type": "",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays unique barcodes, adjustment type(add / subtract) and quantities alongside cost and MRP generated via the Stock Adjustment screen, grouped and totaled by transaction number"]]
             }
         ]
     },
