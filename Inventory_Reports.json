@@ -561,8 +561,8 @@
             {
                 "parameter_type": "Party",
                 "parameters": [
-                    ["Customer", ""],
-                    ["Supplier", ""]
+                    ["Customer", "Displays receipt number and date against the original issue number and date along with transaction quantities to specific customer parties for the selected date range"],
+                    ["Supplier", "Displays receipt number and date against the original issue number and date along with transaction quantities to specific supplier parties for the selected date range"]
                 ]
             }
         ]
