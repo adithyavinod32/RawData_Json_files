@@ -659,16 +659,20 @@
         "option_name": "Stock Transfer Issue Summary",
         "parameter_types": [
             {
+                "parameter_type": "Source Location",
+                "parameters": [["", "Displays transfer issue number and date, source and final location, stock transfer item quantities, and net amounts (Amount + round off) generated via the Stock Transfer Issue screen for the specified source location"]]
+            },
+            {
                 "parameter_type": "Target Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue number and date, source and final location, stock transfer item quantities, and net amounts (Amount + round off) generated via the Stock Transfer Issue screen for the specified target location"]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue number and date, source and final location, stock transfer item quantities, and net amounts (Amount + round off) generated via the Stock Transfer Issue screen for the specified packet number"]]
             },
             {
                 "parameter_type": "Final Destination",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue number and date, source and final location, stock transfer item quantities, and net amounts (Amount + round off) generated via the Stock Transfer Issue screen for the specified final destination"]]
             }
         ]
     },
