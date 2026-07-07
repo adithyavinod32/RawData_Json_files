@@ -684,19 +684,19 @@
         "parameter_types": [
             {
                 "parameter_type": "Source Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue numbers, source and final locations, unique barcodes, and transfer quantities alongside item-level cost generated via the Stock Transfer Issue screen grouped by transfer issue number for the specified source location"]]
             },
             {
                 "parameter_type": "Target Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue numbers, source and final locations, unique barcodes, and transfer quantities alongside item-level cost generated via the Stock Transfer Issue screen grouped by transfer issue number for the specified Target Location "]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue numbers, source and final locations, unique barcodes, and transfer quantities alongside item-level cost generated via the Stock Transfer Issue screen grouped by transfer issue number for the specified Packet Number"]]
             },
             {
                 "parameter_type": "Final Destination",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer issue numbers, source and final locations, unique barcodes, and transfer quantities alongside item-level cost generated via the Stock Transfer Issue screen grouped by transfer issue number for the specified Final Destination "]]
             }
         ]
     },
