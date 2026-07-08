@@ -728,13 +728,13 @@
         "parameter_types": [
             {
                 "parameter_type": "Tax %",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays product sections, stock quantities, cost and MRP valuations grouped and totaled by specific tax tiers, filtered to show only the entered Tax %"]]
             },
             {
                 "parameter_type": "Inward / Outward",
                 "parameters": [
-                    ["Inward", ""],
-                    ["Outward", ""]
+                    ["Inward", "Displays product sections, stock quantities, cost and MRP valuations grouped and totaled by specific tax percentage tiers for inward stock transfers"],
+                    ["Outward", "Displays product sections, stock quantities, cost and MRP valuations grouped and totaled by specific tax percentage tiers for outward stock transfers"]
                 ]
             }
         ]
