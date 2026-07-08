@@ -835,17 +835,9 @@
             {
                 "parameter_type": "Summary / Detailed",
                 "parameters": [
-                    ["Summary", ""],
-                    ["Detailed", ""]
+                    ["Summary", "Displays item subcategories, scanned quantities, and corresponding amount valuations generated during physical inventory counts via the Stock Taking screen "],
+                    ["Detailed", "Displays stock taking numbers, categories, barcodes and scanned quantities generated down to the item level during physical counts via the Stock Taking screen"]
                 ]
-            },
-            {
-                "parameter_type": "Section",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Category Group",
-                "parameters": [["", ""]]
             }
         ]
     },
