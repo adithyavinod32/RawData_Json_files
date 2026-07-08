@@ -782,15 +782,15 @@
         "parameter_types": [
             {
                 "parameter_type": "Source Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays receipt numbers, receipt dates, unique barcodes and received quantities alongside cost valuations generated via the Stock Transfer Receipt screen for selected source location"]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays receipt numbers, receipt dates, unique barcodes and received quantities alongside cost valuations generated via the Stock Transfer Receipt screen for selected packet number"]]
             },
             {
                 "parameter_type": "Final Destination",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays receipt numbers, receipt dates, unique barcodes and received quantities alongside cost valuations generated via the Stock Transfer Receipt screen for selected Final Destination"]]
             }
         ]
     },
@@ -802,15 +802,15 @@
         "parameter_types": [
             {
                 "parameter_type": "Source Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays stock receipt numbers, dates, source and destination, received quantities, and net transaction amounts (Amount + Rounded value) generated via the Stock Transfer Receipt screen for selected source location"]]
             },
             {
                 "parameter_type": "Packet No.",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays stock receipt numbers, dates, source and destination, received quantities, and net transaction amounts (Amount + Rounded value) generated via the Stock Transfer Receipt screen for selected packet number"]]
             },
             {
                 "parameter_type": "Final Destination",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays stock receipt numbers, dates, source and destination, received quantities, and net transaction amounts (Amount + Rounded value) generated via the Stock Transfer Receipt screen for selected final destination"]]
             }
         ]
     },
