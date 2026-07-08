@@ -860,16 +860,12 @@
         "option_name": "Dashboard",
         "parameter_types": [
             {
-                "parameter_type": "Previous Date",
-                "parameters": [["", ""]]
-            },
-            {
-                "parameter_type": "Transaction Date",
-                "parameters": [["", ""]]
+                "parameter_type": " Date",
+                "parameters": [["", "Displays net sales revenue, transactional payment types, tax metrics, and discount adjustments, cancel and returns grouped and totaled by section for a selected billing date"]]
             },
             {
                 "parameter_type": "Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Filters the report to show details exclusively for the selected location "]]
             }
         ]
     }
