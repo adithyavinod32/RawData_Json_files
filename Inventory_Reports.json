@@ -747,17 +747,17 @@
         "parameter_types": [
             {
                 "parameter_type": "From Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer reference numbers, transfer dates and transfered quantities currently marked as in-transit between locations originating from the selected From 'Location'"]]
             },
             {
                 "parameter_type": "To Location",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays transfer reference numbers, transfer dates and transfered quantities currently marked as in-transit between locations bound for the selected ‘To Location’"]]
             },
             {
                 "parameter_type": "Inward / Outward",
                 "parameters": [
-                    ["Inward", ""],
-                    ["Outward", ""]
+                    ["Inward", "Filters the report to show exclusively inward stock transfer transaction details"],
+                    ["Outward", "Filters the report to show exclusively outward stock transfer transaction details"]
                 ]
             }
         ]
