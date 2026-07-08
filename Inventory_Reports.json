@@ -770,7 +770,7 @@
         "parameter_types": [
             {
                 "parameter_type": "Recipt Branch",
-                "parameters": [["", ""]]
+                "parameters": [["", "Displays unique barcodes, transfer quantities, cost and MRP grouped and totaled hierarchically by receiving branch, store section, supplier and product category"]]
             }
         ]
     },
