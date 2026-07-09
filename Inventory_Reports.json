@@ -272,7 +272,7 @@
                                ["Local", "Filters the report to show details with purchase type local"],
                                ["Inter state", "Filters the report to show details with purchase type inter state"]
                 ]
-            }
+            },
             {
                 "parameter_type": "Tax %",
                 "parameters": [
