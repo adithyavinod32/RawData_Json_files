@@ -278,7 +278,7 @@
                 "parameters": [
                                ["0", "Filters the report to show details with tax % as 0"],
                                ["18", "Filters the report to show details with tax % as 18"],
-                               ["12", "Filters the report to show details with tax % as 12"]
+                               ["12", "Filters the report to show details with tax % as 12"]'
                                ["5", "Filters the report to show details with tax % as 5"]
                 ]
             }
