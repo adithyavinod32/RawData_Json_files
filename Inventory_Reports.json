@@ -330,8 +330,8 @@
         "option_name": "Subcategory-wise Gross Profit Report (Old Name : Gross Profit Report)",
         "parameter_types": [
             {
-                "parameter_type": "Not found",
-                "parameters": [["", ""]]
+                "parameter_type": "",
+                "parameters": [["", "Displays net sales value, purchase value, absolute gross profit margins, and gross profit percentage ratios grouped by item subcategory and supplying vendor"]]
             }
         ]
     },
