@@ -303,8 +303,11 @@
         "option_name": "MRP/Cost Range-wise category Report (Old Name : Range-wise category Report)",
         "parameter_types": [
             {
-                "parameter_type": "Not found",
-                "parameters": [["", ""]]
+                "parameter_type": "",
+                "parameters": [
+                    ["MRP", "Displays opening stock, net purchase metrics, net sales figures and closing stock valuations grouped by product category within specified MRP price ranges"],
+                    ["Cost", "Displays opening stock, net purchase metrics, net sales figures and closing stock valuations grouped by product category within specified item cost"]
+                ]
             }
         ]
     },
