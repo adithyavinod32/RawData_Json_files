@@ -266,8 +266,21 @@
         "option_name": "Stock Valuation Tax-wise Report (Old Name : Stock Valuation GST Report)",
         "parameter_types": [
             {
-                "parameter_type": "Not found",
-                "parameters": [["", ""]]
+                "parameter_type": "Purchase Type",
+                "parameters": [
+                               ["All", "Displays available stock quantities and total valuation figures for specific product categories "],
+                               ["Local", "Filters the report to show details with purchase type local"],
+                               ["Inter state", "Filters the report to show details with purchase type inter state"]
+                ]
+            }
+            {
+                "parameter_type": "Tax %",
+                "parameters": [
+                               ["0", "Filters the report to show details with tax % as 0"],
+                               ["18", "Filters the report to show details with tax % as 18"],
+                               ["12", "Filters the report to show details with tax % as 12"]
+                               ["5", "Filters the report to show details with tax % as 5"]
+                ]
             }
         ]
     },
@@ -275,11 +288,11 @@
         "sl_no": "17",
         "module": "Inventory",
         "option_type": "Reports",
-        "option_name": "MRP Range-wise Sales Report (Old Name : MRP Range-wise Report)",
+        "option_name": "MRP Range-wise Sales Report (Old Name : MRP Range-wise Report, new name in effect)",
         "parameter_types": [
             {
-                "parameter_type": "Not found",
-                "parameters": [["", ""]]
+                "parameter_type": "MRP Range",
+                "parameters": [["", "Displays unique barcodes, MRP, opening stock balances, sales quantities, and sales return quantities grouped by product category and subcategory within a specific MRP range"]]
             }
         ]
     },
