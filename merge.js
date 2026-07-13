@@ -50,14 +50,32 @@ function ensureSheets() {
   inSheet.setFrozenRows(1);
 }
 
+/**
+ * Parse "Type:Val1, Val2|Other:A, B" into
+ * [{ type, values: [...] }, ...]
+ *
+ * Values are always split on commas so:
+ *   Report type:B2B, B2C  →  type "Report type", values ["B2B","B2C"]
+ */
 function parseParameters(str) {
   if (!String(str || "").trim()) return [{ type: "", values: [""] }];
+
   return String(str).split("|").map(chunk => {
     chunk = chunk.trim();
+    if (!chunk) return { type: "", values: [""] };
+
     const idx = chunk.indexOf(":");
     if (idx === -1) return { type: "", values: [chunk] };
-    const values = chunk.slice(idx + 1).split(",").map(v => v.trim()).filter(Boolean);
-    return { type: chunk.slice(0, idx).trim(), values: values.length ? values : [""] };
+
+    const type = chunk.slice(0, idx).trim();
+    const raw  = chunk.slice(idx + 1);
+
+    // Split on comma; trim; drop empties
+    const values = raw.split(",")
+      .map(v => v.trim())
+      .filter(Boolean);
+
+    return { type, values: values.length ? values : [""] };
   });
 }
 
@@ -67,6 +85,7 @@ function readInput() {
   if (last < 2) return [];
 
   const reports = [];
+  // getRange(row, col, numRows, numCols) — numRows = last-1 reads rows 2..last
   sh.getRange(2, 1, last - 1, 3).getValues().forEach(r => {
     const name = String(r[1] || "").trim();
     if (!name) return;
@@ -121,11 +140,18 @@ function regenerate() {
   reports.forEach(rep => {
     const repStart = r;
     const total = rep.parameter_types.reduce((s, pt) => s + pt.values.length, 0);
-    if (total > 1) for (let c = FC; c <= FC + 3; c++) merges.push([r, c, total, 1]);
+
+    // Merge Sl.No / Module / Option Type / Option Name across all rows of this report
+    if (total > 1) {
+      for (let c = FC; c <= FC + 3; c++) merges.push([r, c, total, 1]);
+    }
 
     let firstRow = true;
     rep.parameter_types.forEach(pt => {
-      if (pt.values.length > 1) merges.push([r, FC + 4, pt.values.length, 1]);
+      // Merge Parameter Type across its values (e.g. B2B + B2C)
+      if (pt.values.length > 1) {
+        merges.push([r, FC + 4, pt.values.length, 1]);
+      }
 
       pt.values.forEach((val, i) => {
         const left = firstRow
@@ -169,43 +195,51 @@ function regenerate() {
   COL_WIDTHS.forEach((w, i) => sh.setColumnWidth(FC + i, w));
 
   // ── Borders ──────────────────────────────────────────────────────────────
-  // setBorder 5th/6th params (vertical, horizontal) draw ALL inner separators
-  // across a multi-cell range in ONE call — no need to loop column by column.
   const tableHeight = lastRow - HEADER_ROW + 1;
   const table = sh.getRange(HEADER_ROW, FC, tableHeight, nCols);
 
-  table.setBorder(true, true, true, true, true, true, GREY, BS.SOLID);              // base grid
+  // 1. Base grey grid (outer + all inner verticals + horizontals)
+  table.setBorder(true, true, true, true, true, true, GREY, BS.SOLID);
 
-  for (let c = FC; c < LC; c++) {                                                   // vertical separators
+  // 2. Light-blue vertical separators between columns
+  for (let c = FC; c < LC; c++) {
     sh.getRange(HEADER_ROW, c, tableHeight, 1)
       .setBorder(null, null, null, true, null, null, LIGHT_BLUE, BS.SOLID_MEDIUM);
   }
 
+  // 3. Light-blue line under header
   sh.getRange(HEADER_ROW, FC, 1, nCols)
-    .setBorder(null, null, true, null, null, null, LIGHT_BLUE, BS.SOLID_MEDIUM);   // line below header
+    .setBorder(null, null, true, null, null, null, LIGHT_BLUE, BS.SOLID_MEDIUM);
 
-  // Light-blue lines between report blocks.
-  // IMPORTANT: left 4 cols (Sl.No → Option Name) are often MERGED across the
-  // report. setBorder on only the last row does not paint the merge bottom —
-  // apply bottom on the full left block range so the separator connects.
+  // 4. Clear internal horizontal lines inside multi-row merges
+  //    (Sl.No→Option Name, and Parameter Type) so grey lines don't cut through merges.
+  //    Parameter Value / Field Heading keep their row separators.
+  merges.forEach(([row, col, numRows]) => {
+    if (numRows > 1) {
+      sh.getRange(row, col, numRows, 1)
+        .setBorder(null, null, null, null, null, false);
+    }
+  });
+
+  // 5. Light-blue separator under each report block (full width).
+  //    CRITICAL: use the FULL block range, not just the last row.
+  //    Merged cells (left 4 cols AND Parameter Type) only get a reliable bottom
+  //    border when bottom is applied on the whole merge/block range.
+  //    Example: Report type:B2B, B2C  → Parameter Type is merged 2 rows deep.
   sectionEnds.forEach((endRow, i) => {
     if (endRow >= lastRow) return;
-
     const startRow = sectionStarts[i];
     const height   = endRow - startRow + 1;
-
-    // Right side (Parameter Type → Field Heading): bottom of last row
-    sh.getRange(endRow, FC + 4, 1, nCols - 4)
-      .setBorder(null, null, true, null, null, null, LIGHT_BLUE, BS.SOLID_MEDIUM);
-
-    // Left side (Sl.No → Option Name): full report block so merges get the line
-    sh.getRange(startRow, FC, height, 4)
+    sh.getRange(startRow, FC, height, nCols)
       .setBorder(null, null, true, null, null, null, LIGHT_BLUE, BS.SOLID_MEDIUM);
   });
 
-  table.setBorder(true, true, true, true, null, null, DARK_BLUE, BS.SOLID_THICK);  // thick outer border
+  // 6. Thick dark-blue outer border
+  table.setBorder(true, true, true, true, null, null, DARK_BLUE, BS.SOLID_THICK);
+
+  // 7. Thick dark-blue header bottom + header verticals
   sh.getRange(HEADER_ROW, FC, 1, nCols)
-    .setBorder(null, null, true, null, true, false, DARK_BLUE, BS.SOLID_THICK);    // thick header verticals + bottom
+    .setBorder(null, null, true, null, true, false, DARK_BLUE, BS.SOLID_THICK);
 
   // ── Finalize ─────────────────────────────────────────────────────────────
   sh.setHiddenGridlines(true);
